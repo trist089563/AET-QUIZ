@@ -121,17 +121,18 @@ header p {
 
 #nextBtn {
   margin-top: 20px;
-  padding: 12px 25px;
-  font-size: 1rem;
+  padding: 20px 25px;
+  font-size: 1.3rem;
+  color: #fff;
   border: none;
-  border-radius: 12px;
-  background-color: #FF851B;
+  border-radius: 50px;
+  background-color: #a763ff;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 #nextBtn:hover {
-  background-color: #ff7000;
+  background-color: #8326fc;
   transform: scale(1.05);
 }
 
