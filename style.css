@@ -1,0 +1,153 @@
+/* Reset and Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0a1f3f, #004080);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* Quiz Card */
+.quiz-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px 25px;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: transform 0.3s;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Progress Bar */
+#progress-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  height: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  background-color: #39CCCC;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Question & Options */
+.question {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Centered and consistent answer buttons */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.options button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  padding: 14px 20px;
+  min-width: 80%;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #39CCCC;
+  transform: scale(1.05);
+}
+
+.options button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+
+.feedback {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #FF851B;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#nextBtn:hover {
+  background-color: #ff7000;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+.score {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 1.15rem;
+  opacity: 0.9;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.6;
+}
