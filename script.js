@@ -1,74 +1,74 @@
 const quizData = [
-  {
-    question: "🛠️ You're inspecting a jet engine and AI alerts you to a potential issue. What do you do first?",
-    options: [
-      "Check the AI’s diagnostics report before touching anything",
-      "Ignore it and hope the jet survives",
-      "Call your AI assistant 'Jarvis' and ask politely",
-      "Take a selfie with the engine"
-    ],
-    answer: "Check the AI’s diagnostics report before touching anything"
-  },
-  {
-    question: "🤖 AI suggests replacing a part that looks fine. What’s the best approach?",
-    options: [
-      "Trust the AI and follow the maintenance protocol",
-      "Argue with the AI and do it your way",
-      "Throw a wrench at it to see what happens",
-      "Ask the coffee machine for advice"
-    ],
-    answer: "Trust the AI and follow the maintenance protocol"
-  },
-  {
-    question: "🎯 The AI predicts a minor failure in 3 days. How do you prepare?",
-    options: [
-      "Schedule maintenance and order parts in advance",
-      "Ignore it and plan a karaoke night",
-      "Call the AI an overachiever",
-      "Start practicing your juggling skills"
-    ],
-    answer: "Schedule maintenance and order parts in advance"
-  },
-  {
-    question: "💡 AI offers to help optimize engine efficiency. What should you do?",
-    options: [
-      "Review its recommendations and implement the safe ones",
-      "Tell it to mind its own business",
-      "Rename it 'Captain AI' and salute",
-      "Use it as a coaster for your mug"
-    ],
-    answer: "Review its recommendations and implement the safe ones"
-  },
-  {
-    question: "⚡ Future AI tools may help technicians by:",
-    options: [
-      "Predicting failures before they happen",
-      "Making jokes about your tool skills",
-      "Brewing perfect tea on deck",
-      "Repainting the aircraft with emojis"
-    ],
-    answer: "Predicting failures before they happen"
-  },
-  {
-    question: "🛩️ Your AI assistant flags an unusual reading mid-flight. How do you react?",
-    options: [
-      "Follow standard emergency protocols and consult the AI report",
-      "Ignore it and hope for the best",
-      "Ask it if it wants a promotion",
-      "Take a nap and dream about drones"
-    ],
-    answer: "Follow standard emergency protocols and consult the AI report"
-  },
-  {
-    question: "🎮 Which of these best describes AI in Air Engineering?",
-    options: [
-      "A helpful teammate that never sleeps",
-      "A cranky mechanic who hides your tools",
-      "A DJ on deck playing 'Eye of the Tiger'",
-      "A paperweight that talks"
-    ],
-    answer: "A helpful teammate that never sleeps"
-  }
+{
+question: "What is one real use of AI in military aircraft maintenance?",
+options: [
+"Predicting failures before they happen",
+"Changing the aircraft’s paint colour",
+"Ordering takeaway for the squad",
+"Writing breakup texts"
+],
+answer: "Predicting failures before they happen"
+},
+{
+question: "Your AI assistant flags an unusual engine vibration. How do you react?",
+options: [
+"Follow standard emergency protocols and consult the AI report",
+"Ignore it and hope for the best",
+"Ask it if it wants a promotion",
+"Start humming the Top Gun theme"
+],
+answer: "Follow standard emergency protocols and consult the AI report"
+},
+{
+question: "Which description best fits AI in Air Engineering?",
+options: [
+"A helpful teammate that never sleeps",
+"A grumpy mechanic who steals your tools",
+"A seagull with a laptop",
+"A talking toolbox"
+],
+answer: "A helpful teammate that never sleeps"
+},
+{
+question: "Why is AI useful for analysing aircraft sensor data?",
+options: [
+"It can analyse thousands of inputs instantly",
+"It gets bored easily",
+"It loves spreadsheets",
+"It wants to impress the Chief"
+],
+answer: "It can analyse thousands of inputs instantly"
+},
+{
+question: "What is one real role AI plays in UAV (drone) operations?",
+options: [
+"Assisting with autonomous navigation",
+"Delivering birthday cakes",
+"Filming TikToks for the squad",
+"Avoiding seagulls with attitude"
+],
+answer: "Assisting with autonomous navigation"
+},
+{
+question: "Why are militaries adopting AI for decision-making support?",
+options: [
+"To process information faster than humans",
+"Because robots demanded union breaks",
+"To replace coffee breaks",
+"For better karaoke suggestions"
+],
+answer: "To process information faster than humans"
+},
+{
+question: "What’s a realistic benefit of AI-assisted diagnostics?",
+options: [
+"Faster detection of faults",
+"Makes the aircraft go 'pew pew'",
+"Automatically cleans the hangar",
+"Gives motivational speeches"
+],
+answer: "Faster detection of faults"
+}
 ];
 
 // Quiz state
