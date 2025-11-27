@@ -2,9 +2,9 @@ const quizData = [
 {
 question: "What is one real use of AI in military aircraft maintenance?",
 options: [
-"Predicting failures before they happen",
 "Changing the aircraft’s paint colour",
 "Ordering takeaway for the squad",
+"Predicting failures before they happen",
 "Writing breakup texts"
 ],
 answer: "Predicting failures before they happen"
@@ -14,7 +14,7 @@ question: "Which description best fits AI in engineering?",
 options: [
 "A helpful teammate that never sleeps",
 "A grumpy mechanic who steals your tools",
-"A seagull with a laptop",
+"67",
 "A talking toolbox"
 ],
 answer: "A helpful teammate that never sleeps"
@@ -22,8 +22,8 @@ answer: "A helpful teammate that never sleeps"
 {
 question: "Why is AI useful for analysing aircraft sensor data?",
 options: [
-"It can analyse thousands of inputs instantly",
 "It gets bored easily",
+"It can analyse thousands of inputs instantly",
 "It loves spreadsheets",
 "It wants to impress the Chief"
 ],
@@ -32,10 +32,10 @@ answer: "It can analyse thousands of inputs instantly"
 {
 question: "What is one real role AI plays in UAV (drone) operations?",
 options: [
-"Assisting with autonomous navigation",
 "Delivering birthday cakes",
 "Filming TikToks for the squad",
-"Avoiding seagulls with attitude"
+"Avoiding sassy seagulls",
+"Assisting with autonomous navigation"
 ],
 answer: "Assisting with autonomous navigation"
 },
@@ -52,9 +52,9 @@ answer: "To process information faster than humans"
 {
 question: "What’s a realistic benefit of AI-assisted diagnostics?",
 options: [
-"Faster detection of faults",
 "Makes the aircraft go 'pew pew'",
 "Automatically cleans the hangar",
+"Faster detection of faults",
 "Gives motivational speeches"
 ],
 answer: "Faster detection of faults"
