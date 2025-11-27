@@ -10,17 +10,7 @@ options: [
 answer: "Predicting failures before they happen"
 },
 {
-question: "Your AI assistant flags an unusual engine vibration. How do you react?",
-options: [
-"Follow standard emergency protocols and consult the AI report",
-"Ignore it and hope for the best",
-"Ask it if it wants a promotion",
-"Start humming the Top Gun theme"
-],
-answer: "Follow standard emergency protocols and consult the AI report"
-},
-{
-question: "Which description best fits AI in Air Engineering?",
+question: "Which description best fits AI in engineering?",
 options: [
 "A helpful teammate that never sleeps",
 "A grumpy mechanic who steals your tools",
