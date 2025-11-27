@@ -120,13 +120,13 @@ header p {
 }
 
 #nextBtn {
-  margin: 20px 40px;
+  margin: 20px 20px;
   padding: 30px 25px;
   font-size: 1.3rem;
   font-weight: bold;
   color: #fff;
   border: none;
-  border-radius: 50px;
+  border-radius: 40px;
   background-color: #a763ff;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
